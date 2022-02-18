@@ -115,3 +115,25 @@ li a:hover {
   font-size:15px;
   margin-bottom:0;
 }
+h5{
+  font-size: 30px;
+}
+p{
+  font-size: 25px;
+}
+.card-body a{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.container{
+  padding: 2rem;
+}
+.title h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+.title p{
+  font-size: small;
+  text-align: center;
+  text-transform: uppercase;
+}
