@@ -8,6 +8,12 @@ $font-weights:(
 %text{
 	text-transform: uppercase;
 }
+h2{
+	.contact{
+		@extend %text;
+		text-align: center;
+	}
+}
 body {
 	background: rgb(19, 19, 19);
 	color: #fff;

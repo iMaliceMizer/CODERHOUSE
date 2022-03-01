@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
-.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link, .footer-dark h3, .copyright, .card-body a, .title h1, .title p {
+h2 .contact, .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link, .footer-dark h3, .copyright, .card-body a, .title h1, .title p {
   text-transform: uppercase;
+}
+
+h2 .contact {
+  text-align: center;
 }
 
 body {
