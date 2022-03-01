@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+h2 .contact, .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link, .footer-dark h3, .copyright, .card-body a, .title h1, .title p {
+  text-transform: uppercase;
+}
+
+h2 .contact {
+  text-align: center;
+}
+
 body {
   background: #131313;
   color: #fff;
@@ -62,7 +70,6 @@ body {
 .navbar-dark .navbar-brand {
   color: #fff;
   font-size: 25px;
-  text-transform: uppercase;
   font-weight: bolder;
   letter-spacing: 2px;
 }
@@ -73,7 +80,6 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
   font-weight: bold;
-  text-transform: uppercase;
   color: #fff;
 }
 
@@ -133,7 +139,6 @@ li a:hover {
 .footer-dark h3 {
   margin-top: 0;
   margin-bottom: 12px;
-  text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
 }
@@ -187,7 +192,6 @@ li a:hover {
 
 .copyright {
   font-weight: bold;
-  text-transform: uppercase;
   text-align: center;
   padding-top: 30px;
   font-size: 15px;
@@ -199,12 +203,11 @@ h5 {
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .card-body a {
   font-size: 25px;
-  text-transform: uppercase;
 }
 
 .container {
@@ -213,13 +216,11 @@ p {
 
 .title h1 {
   text-align: center;
-  text-transform: uppercase;
 }
 
 .title p {
   font-size: small;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .shop-item {
@@ -400,5 +401,10 @@ p {
     text-align: center;
     margin-top: 20px;
   }
+}
+
+.slide img {
+  max-height: 100%;
+  max-width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
