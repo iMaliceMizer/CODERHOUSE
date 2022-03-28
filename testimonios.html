@@ -12,6 +12,10 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="store.js" async></script>
 	<title>Dunkelheit Testimonios</title>
 </head>
 <body>
@@ -19,72 +23,40 @@
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">Dunkelheit</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="store.html">Catalogo</a>
-						</li>
+			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+				    </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav ml-auto">
+					    <li class="nav-item active">
+						<a class="nav-link" href="store.html">Catalogo</a>
+					    </li>
+					    <li class="nav-item">
+						<a class="nav-link" href="sucursales.html">Sucursales</a>
+					    </li>
+					    <li class="nav-item">
+						<a class="nav-link" href="testimonios.html">Testimonios</a>
+					    </li>
 						<li class="nav-item">
-							<a class="nav-link" href="sucursales.html">Sucursales</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="testimonios.html">Testimonios</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contactos.html">Contactos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="galeria.html">Galeria Productos</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
-
-
-
-	<section>
-		<div id="demo" class="carousel slide" data-ride="carousel">
-			<ul class="carousel-indicators">
-				<li data-target="#demo" data-slide-to="0" class="active"></li>
-				<li data-target="#demo" data-slide-to="1"></li>
-				<li data-target="#demo" data-slide-to="2"></li>
-			</ul>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="assets/cake1.jpeg" alt="Pastel1">
-				</div>
-				<div class="carousel-item">
-					<img src="assets/cake2.jpeg" alt="Pastel2">
-				</div>
-				<div class="carousel-item">
-					<img src="assets/cake3.jpeg" alt="Pastel3">
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#demo" data-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</a>
-			<a class="carousel-control-next" href="#demo" data-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</a>
-		</div>
-	</section>
-	
+						<a class="nav-link" href="contactos.html">Contactos</a>
+					    </li>
+					    <li class="nav-item">
+						<a class="nav-link" href="galeria.html">Galeria Productos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>              
 <div class="testimonio">
 	<h2 class="h2"> Testimonios de nuestra distinguida clientela</h1>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<div class="tarjeta-1">
-					<div class="img1"><img src="assets/lugar3.jpeg" alt=""></div>
-					<div class="img2"><img src="assets/persona1.jpeg" alt=""></div>
+				<div class="tarjeta-testimonio">
+					<div class="img1"><img src="assets/lugar3.jpeg" alt="lugar3"></div>
+					<div class="img2"><img src="assets/persona1.jpeg" alt="persona1"></div>
 					<dir class="texto-main">
 						<h2>Carola Fernandez</h2>
 						<p>" Tienen variedad en productos, se pueden agendar por wsp las tortas,
@@ -93,9 +65,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="tarjeta-2">
-					<div class="img1"><img src="assets/lugar6.jpeg" alt=""></div>
-					<div class="img2"><img src="assets/persona2.jpeg" alt=""></div>
+				<div class="tarjeta-testimonio">
+					<div class="img1"><img src="assets/lugar6.jpeg" alt="lugar6"></div>
+					<div class="img2"><img src="assets/persona2.jpeg" alt="persona2"></div>
 					<dir class="texto-main">
 						<h2>Lissette Muñoz Bello</h2>
 						<p>" Una de las pocas panaderías que vende las reales pirkas y no esas con 
@@ -104,9 +76,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="tarjeta-3">
-					<div class="img1"><img src="assets/lugar1.jpeg" alt=""></div>
-					<div class="img2"><img src="assets/persona3.jpeg" alt=""></div>
+				<div class="tarjeta-testimonio">
+					<div class="img1"><img src="assets/lugar1.jpeg" alt="lugar1"></div>
+					<div class="img2"><img src="assets/persona3.jpeg" alt="persona3"></div>
 					<dir class="texto-main">
 						<h2>Graciela Oyarzún</h2>
 						<p>"Un excelente lugar para degustar empanadas y otras delicias,
@@ -116,9 +88,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="tarjeta-4">
-					<div class="img1"><img src="assets/lugar8.jpeg" alt=""></div>
-					<div class="img2"><img src="assets/persona4.jpeg" alt=""></div>
+				<div class="tarjeta-testimonio">
+					<div class="img1"><img src="assets/lugar8.jpeg" alt="lugar8"></div>
+					<div class="img2"><img src="assets/persona4.jpeg" alt="persona4"></div>
 					<dir class="texto-main">
 						<h2>Natalie Lam</h2>
 						<p>" Todo muy rico, el local es super limpio y lo que más me gusta 
@@ -127,9 +99,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="tarjeta-5">
-					<div class="img1"><img src="assets/lugar5.jpeg" alt=""></div>
-					<div class="img2"><img src="assets/persona5.jpeg" alt=""></div>
+				<div class="tarjeta-testimonio">
+					<div class="img1"><img src="assets/lugar5.jpeg" alt="lugar5"></div>
+					<div class="img2"><img src="assets/persona5.jpeg" alt="persona5"></div>
 					<dir class="texto-main">
 						<h2>大越由里子</h2>
 						<p>" Productos frescos, ricos y de buena preparación en un lugar limpio
@@ -139,9 +111,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="tarjeta-6">
-					<div class="img1"><img src="assets/lugar7.jpeg" alt=""></div>
-					<div class="img2"><img src="assets/persona6.jpeg" alt=""></div>
+				<div class="tarjeta-testimonio">
+					<div class="img1"><img src="assets/lugar7.jpeg" alt="lugar7"></div>
+					<div class="img2"><img src="assets/persona6.jpeg" alt="persona6"></div>
 					<dir class="texto-main">
 						<h2>Varinia Arellano</h2>
 						<p>" Productos deliciosos, frescos, variados y a muy buen precio,
@@ -150,9 +122,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="tarjeta-7">
-					<div class="img1"><img src="assets/lugar9.jpeg" alt=""></div>
-					<div class="img2"><img src="assets/persona7.jpeg" alt=""></div>
+				<div class="tarjeta-testimonio">
+					<div class="img1"><img src="assets/lugar9.jpeg" alt="lugar9"></div>
+					<div class="img2"><img src="assets/persona7.jpeg" alt="persona7"></div>
 					<dir class="texto-main">
 						<h2>Álvaro Tapia</h2>
 						<p>" Todo muy rico, me encanta, voy a engordar con todos sus pasteles
@@ -161,9 +133,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="tarjeta-8">
-					<div class="img1"><img src="assets/lugar2.jpeg" alt=""></div>
-					<div class="img2"><img src="assets/persona8.jpeg" alt=""></div>
+				<div class="tarjeta-testimonio">
+					<div class="img1"><img src="assets/lugar2.jpeg" alt="lugar2"></div>
+					<div class="img2"><img src="assets/persona8.jpeg" alt="persona8"></div>
 					<dir class="texto-main">
 						<h2>Jiahui Jiang</h2>
 						<p> "Una panadería con variedad en tortas,pasteles , panes , lacteos 
@@ -172,9 +144,9 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="tarjeta-9">
-					<div class="img1"><img src="assets/lugar4.jpeg" alt=""></div>
-					<div class="img2"><img src="assets/persona9.jpeg" alt=""></div>
+				<div class="tarjeta-testimonio">
+					<div class="img1"><img src="assets/lugar4.jpeg" alt="lugar4"></div>
+					<div class="img2"><img src="assets/persona9.jpeg" alt="persona9"></div>
 					<dir class="texto-main">
 						<h2>David Vallet</h2>
 						<p>" Excelente Pan de pascua, le pongo un 10!! Los dulces y pasteles
@@ -185,59 +157,47 @@
 		</div>
 	</div>
 </div>
-
-
-
-
-
-
-
-
-
-
-	<div class="footer-dark">
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 col-md-3 item">
-						<h3>Servicios Disponibles</h3>
+<div class="footer-dark">
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-3 item">
+					<h3>Servicios Disponibles</h3>
 						<ul>
-							<li><a href="#">Cursos de resposteria</a></li>
-							<li><a href="#">Envios a domicilio</a></li>
-							<li><a href="#">Sucursales</a></li>
+							<li><a href="store.html">Compra en linea</a></li>
+							<li><a href="galeria.html">Galeria de productos</a></li>
+							<li><a href="contactos.html">Datos de contacto</a></li>
+							<li><a href="sucursales.html">Sucursales</a></li>
 						</ul>
-					</div>
-					<div class="col-sm-6 col-md-3 item">
-						<h3>Sobre Nosotros</h3>
-						<ul>
-							<li><a href="#">Dunkelheit Concepción</a></li>
-							<li><a href="#">Contacto</a></li>
-							<li><a href="#">Dirección</a></li>
-						</ul>
-					</div>
-					<div class="col-md-6 item text">
-						<h3>Dunkelheit</h3>
-						<p>En Dunkelheit nos apasiona las pasteleria y es nuestro deber entregar un servicio que deje
-							satisfechos a nuestros clientes, junto a nosotros
-							puedes encontrar gran variedad de opciones ya sea para comprar y servir en el local o para
-							llevar de nuestro variado catalogo de pasteles y resposteria.</p>
-					</div>
 				</div>
-				<div class="col item social">
-					<a href="#"><i class="icon ion-social-facebook"></i></a>
-					<a href="#"><i class="icon ion-social-twitter"></i></a>
-					<a href="#"><i class="icon ion-social-instagram"></i></a>
-				</div>
-			</div>
-			<p class="copyright">Dunkelheit © 2022</p>
-	</div>
-	</div>
+					<div class="col-sm-6 col-md-3 item text">
+						<h3> Contactanos !</h3>
+							<p>(+56) 9 5618 6650</p>
+							<p>Opción 1: Compra Telefonica</p>
+							<p>Opción 2: Reserva de mesas</p>
+							<p>Opción 3: Servicio al cliente</p>
+							<p>Opción 4: Contacto con ejecutivo</p>
+							<p>Opción 5: Reclamos y sugerencias</p>
+					</div>
+					    <div class="col-md-6 item text">
+						    <h3>Dunkelheit</h3>
+						        <p>En Dunkelheit nos apasiona las pasteleria y es nuestro deber entregar un servicio que deje
+							    satisfechos a nuestros clientes, junto a nosotros
+							    puedes encontrar gran variedad de opciones ya sea para comprar y servir en el local o para
+							    llevar de nuestro variado catalogo de pasteles y resposteria.</p>
+					    </div>
+				    </div>
+				        <br>
+				            <div class="col item social">
+					            <a href="https://www.facebook.com" target="_blank"><i class="icon ion-social-facebook"></i></a>
+					            <a href="https://twitter.com" target="_blank"><i class="icon ion-social-twitter"></i></a>
+					            <a href="https://www.instagram.com/" target="_blank"><i class="icon ion-social-instagram"></i></a>
+				            </div>
+			        </div>
+			            <p class="copyright">Dunkelheit © 2022</p>
+	                </div>
+	        </div>
 	</footer>
-	</div>
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-	<script src="store.js" async></script>
+</div>
 </body>
-
 </html>
