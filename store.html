@@ -4,75 +4,151 @@
         <meta name="description" content="This is the description">
         <meta name="robots" content="noindex"/>
         <meta name="description" content="Tienda de productos Dunkelheit"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <link href='https://css.gg/shopping-cart.css' rel='stylesheet'>
-        <link href='https://css.gg/trash.css' rel='stylesheet'>
-        <link href='https://css.gg/add-r.css' rel='stylesheet'>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="store.js" async></script>
+
         <title>Dunkelheit Store</title>
     </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">Dunkelheit</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                        <a class="nav-link" href="store.html">Catalogo</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="sucursales.html">Sucursales</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="testimonios.html">Testimonios</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="contactos.html">Contactos</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galeria Productos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-<section>
-    <div class="carro-container">
-        <h2>Dunkelheit Store</h2>
-            <div class="funcionalidad-carro">
-                <button id="boton-carrito"><i class="gg-shopping-cart"></i>
-                    <span id="contadorCarrito">0</span></button>
-                        <input id="search" type="text" class="input" placeholder="Ingrese palabra clave">
-            </div>
-    </div>
-</section>
-<main id="contenedor-productos">
-</main>
 
-<div class="modal-contenedor">
-    <div class="modal-carrito">
-        <h3>Shopping Cart</h3>
-        <button id="carritoCerrar"></i></button>
-        <div id="carrito-contenedor">
-        </div>
-        <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
-        <button onclick='botonComprar()' id="purchase" class="btn btn-primary btn-purchase" type="button">Comprar</button>
-    </div>
+<body>
+
+ <div class="main">
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Dunkelheit</a>
+			<div class="collpase navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+					<a class="nav-link" href="store.html">Catalogo</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="sucursales.html">Sucursales</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="testimonios.html">Testimonios</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="contactos.html">Contactos</a>
+					</li>
+					<li class="nav-item">
+                    <a class="nav-link" href="about.html">Sobre nosotros</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 </div>
+
+<section class="dishes" id="dishes">
+    <h1 class="title"> Nuestros pasteles </h1>
+<div class="container">
+<div class="box-container">
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <img src="assets/store1.png" alt="">
+        <h3>Pastel Cumpleaños</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <span>$25.990</span>
+        <a href="#" class="btn">Añadir al carrito</a>
+    </div>
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <img src="assets/store2.png" alt="">
+        <h3>Pastel Cumpleaños</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <span>$25.990</span>
+        <a href="#" class="btn">Añadir al carrito</a>
+    </div>
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <img src="assets/store3.png" alt="">
+        <h3>Pastel de Mazapan</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <span>$25.990</span>
+        <a href="#" class="btn">Añadir al carrito</a>
+    </div>
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <img src="assets/store4.png" alt="">
+        <h3>Pastel de chocolate</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <span>$25.990</span>
+        <a href="#" class="btn">Añadir al carrito</a>
+    </div>
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <img src="assets/store5.png" alt="">
+        <h3>Pastel Esp. Navidad </h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <span>$25.990</span>
+        <a href="#" class="btn">Añadir al carrito</a>
+    </div>
+
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <img src="assets/store6.png" alt="">
+        <h3>Pastel de Selva Negra</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <span>$25.990</span>
+        <a href="#" class="btn">Añadir al carrito</a>
+    </div>
+
+</div>
+
+</section>
+
 <div class="footer-dark">
     <footer>
         <div class="container">
@@ -115,5 +191,7 @@
             </div>
     </footer>
 </div>
+
 </body>
+
 </html>

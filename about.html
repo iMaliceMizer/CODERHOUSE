@@ -1,63 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Galeria de productos destacados"/>
 	<meta name="robots" content="noindex"/>
+
 	<link rel="shortcut icon" href="assets/img/logo.png">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="store.js" async></script>
+
 	<title>Dunkelheit Gallery</title>
+
 </head>
+
 <body>
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-			<div class="container">
-				<a class="navbar-brand" href="index.html">Dunkelheit</a>
-			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					    <span class="navbar-toggler-icon"></span>
-				    </button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				    <ul class="navbar-nav ml-auto">
-					    <li class="nav-item active">
-						<a class="nav-link" href="store.html">Catalogo</a>
-					    </li>
-					    <li class="nav-item">
-						<a class="nav-link" href="sucursales.html">Sucursales</a>
-					    </li>
-					    <li class="nav-item">
-						<a class="nav-link" href="testimonios.html">Testimonios</a>
-					    </li>
-						<li class="nav-item">
-						<a class="nav-link" href="contactos.html">Contactos</a>
-					    </li>
-					    <li class="nav-item">
-						<a class="nav-link" href="galeria.html">Galeria Productos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>              
-<section class="gallery">
-    <div class="photo-grid">
-        <div class="card card-tall card-wide" style="background-image:url('assets/grid2.jpg')"></div>
-        <div class="card card-tall" style="background-image:url('assets/grid1.jpg')"></div>
-        <div class="card card" style="background-image:url('assets/grid5.jpg')"></div>
-        <div class="card" style="background-image:url('assets/grid4.jpg')"></div>
-        <div class="card" style="background-image:url('assets/grid3.jpg')"></div>
-        <div class="card" style="background-image:url('assets/grid7.jpg')"></div>
-        <div class="card card-wide" style="background-image:url('assets/grid8.jpg')"></div>
-    </div>        
+
+<div class="main">
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Dunkelheit</a>
+			<div class="collpase navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+					<a class="nav-link" href="store.html">Catalogo</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="sucursales.html">Sucursales</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="testimonios.html">Testimonios</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="contactos.html">Contactos</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="about.html">Sobre nosotros</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+
+<section class="about" id="about">  
+
+	
+	<div class="content">
+		<h1 class="title-a">Conoce mas sobre Dunkelheit</h1>
+		<div class="about-section">
+			<div class="inner-container">
+				<p class="text">
+					<p>El amor a la pastelería de Hugo Roggendorf fue heredado de su padre. Como sus padres tenían un café llamado Cafe Oberstadt en la ciudad de Mönchengladbach,
+						Hugo decide seguir con la tradición familiar y estudiar pastelería, obteniendo el grado de maestro.
+					   Años después de la guerra Hugo decide emigrar a Chile junto a su esposa Ruth. Llegan el año 1953 a Concepción, donde él se desempeña como Jefe de Fábrica de una prestigiosa pastelería
+						de aquel entonces. Dos años más tarde toma la decisión de independizarse y empieza vendiendo pasteles en su casa. Junto a un ayudante fabricaba pasteles, 
+						mientras que su esposa Ruth los vendía. Debido a su éxito es que luego de un año arriendan un local ubicado frente al Palacio de los Tribunales, 
+					   en pleno centro de Concepción.
+				   </p>
+			</div>
+		</div>
+		<div class="icons-container">
+			<div class="icons">
+				<i class="fas fa-shipping-fast"></i>
+				<span>Productos frescos</span>
+			</div>
+			<div class="icons">
+				<i class="fas fa-dollar-sign"></i>
+				<span>Todo medio de pago</span>
+			</div>
+			<div class="icons">
+				<i class="fas fa-headset"></i>
+				<span>Abierto fin de semanas y feriados</span>
+			</div>
+		</div>
+		<a href="store.html" class="btn">Compra tus productos aqui!</a>
+	</div>
+</div>
 </section>
+
 <div class="footer-dark">
 	<footer>
 		<div class="container">
@@ -100,5 +130,7 @@
 			</div>
 	</footer>
 </div>
+
 </body>
+
 </html>

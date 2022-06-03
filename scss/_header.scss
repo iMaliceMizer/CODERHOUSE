@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root {
+  --box-shadow:0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+section {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    padding: 2rem 9%;
+}
+.home .home-slider .slide {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 9rem;
+
+.content {
+    flex: 1 1 45rem;
+}
+
+  .image {
+    flex: 1 1 45rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    span {
+      color: #ae8970;
+      font-size: 2rem;
+      text-transform: none;
+    }
+
+    h3 {
+      color: #ae8970;
+      font-size: 7rem;
+      
+    }
+
+    p {
+      color: #979191;
+      font-size: 1.7rem;
+      padding: .5rem 0;
+      line-height: 1.5;
+      text-transform: none;
+    }
+  }
+}
+
+
